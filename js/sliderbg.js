@@ -18,7 +18,7 @@ let isFlickr = false;
 function setBg() {
     const img = new Image()
     const timeOfDay = showGretting();
-    img.src = `https://raw.githubusercontent.com/Arxons/stage1-tasks/assets/images/${timeOfDay}/${randomNum}.webp`
+    img.src = `https://raw.githubusercontent.com/Arxons/stage1-tasks/assets/images/${timeOfDay}/${randomNum}.jpg`
     img.onload = () => {
         body.style.backgroundImage = `url(${img.src})`;
     };
